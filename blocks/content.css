@@ -1,0 +1,6 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+}

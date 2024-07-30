@@ -1,0 +1,122 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-right: 154px;
+  justify-content: center;
+}
+
+.intro__title {
+  width: 830px;
+  height: 116px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  padding-bottom: 40px;
+}
+
+.intro__text {
+  width: 738px;
+  height: 68px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.intro__text-reference {
+  width: 732px;
+  height: 34px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+}
+
+.intro__text-introduction {
+  width: 722px;
+  height: 182px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.08px;
+  text-align: left;
+  margin-top: 32px;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding-inline: 24px;
+    overflow: hidden;
+  }
+
+  .intro__title {
+    width: 707;
+    padding: 0;
+    height: 98px;
+    font-size: 45px;
+    line-height: 49px;
+    margin-bottom: 50px;
+  }
+
+  .intro__text {
+    width: auto;
+    padding-right: 0;
+    margin-bottom: 0;
+    line-height: 102px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .intro__text-reference {
+    width: auto;
+    text-align: end;
+    padding: 0;
+    height: 34px;
+    font-size: 24px;
+    margin-block: 0;
+    padding-top: 26px;
+  }
+
+  .intro__text-introduction {
+    width: auto;
+    padding: 0;
+    height: 182px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .intro {
+    padding: 16px;
+    width: auto;
+  }
+
+  .intro__title {
+    width: 100%;
+    height: auto;
+    font-size: 32px;
+    line-height: 35px;
+    padding-right: 0;
+  }
+
+  .intro__text {
+    height: auto;
+    font-size: 24px;
+    line-height: 35px;
+    padding-top: 40px;
+    margin-top: 0;
+  }
+
+  .intro__text-reference {
+    width: 100%;
+    height: auto;
+    line-height: 34px;
+  }
+
+  .intro__text-introduction {
+    width: 100%;
+    height: auto;
+    margin-bottom: 64px;
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}
