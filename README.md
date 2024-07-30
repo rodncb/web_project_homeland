@@ -1,4 +1,4 @@
-Tripleten web_project_homeland
+Tripleten Art Gallery
 
 TripleTen Art Gallery - A melhor galeria da cidade
 
