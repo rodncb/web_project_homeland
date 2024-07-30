@@ -74,5 +74,6 @@
   .lead__image {
     height: auto;
     margin-bottom: 64px;
+    margin-top: 40px;
   }
 }
