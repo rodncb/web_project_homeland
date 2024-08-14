@@ -1,15 +1,19 @@
 .photo {
+  margin: 0px 48px 80px;
+  display: flex;
+  justify-content: center;
+}
+.photo__galery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin-top: 118px;
-  padding: 0 48px 0 48px;
   gap: 16px;
 }
 
 .photo__item {
-  width: 284px;
-  height: 213px;
+  max-width: 284px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
