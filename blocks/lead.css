@@ -30,7 +30,7 @@
   max-width: 984px;
   margin-bottom: 92px;
   width: 100%;
-  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 1024px) {
@@ -51,7 +51,6 @@
   .lead__image {
     height: auto;
     margin-bottom: 90px;
-    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
   }
 }
 @media screen and (max-width: 540px) {
@@ -77,6 +76,5 @@
     height: auto;
     margin-bottom: 64px;
     margin-top: 40px;
-    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
   }
 }
