@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .photo {
+  .photo__galery {
     max-width: 720px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -26,7 +26,7 @@
 }
 
 @media screen and (max-width: 540px) {
-  .photo {
+  .photo__galery {
     max-width: 288px;
     display: grid;
     grid-template-columns: 1fr;
