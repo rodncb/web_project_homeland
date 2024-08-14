@@ -95,3 +95,66 @@
   );
   cursor: pointer;
 }
+@media screen and (max-width: 1024px) {
+  .place__city {
+    max-width: 720px;
+    grid-gap: 48px 28px;
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: 1fr 340px;
+  }
+  .place__city-name {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+    text-align: left;
+  }
+  .place__artists {
+    max-width: 352px;
+  }
+  .city__image {
+    max-width: 340px;
+  }
+  .place__city-text-paragraph {
+    font-size: 18px;
+    line-height: 26.08px;
+    max-width: 352px;
+  }
+  .button {
+    max-width: 355px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .place__city {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .place__city-name {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: left;
+  }
+  .place__artists {
+    max-width: 288px;
+  }
+  .city__image {
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .place__city-text-paragraph {
+    max-width: 288px;
+    font-size: 18px;
+  }
+
+  .button {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16.94px;
+    margin: 0 16px;
+    padding: 12px 16px;
+  }
+}

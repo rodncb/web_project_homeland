@@ -11,3 +11,21 @@
   width: 284px;
   height: 213px;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo__grid {
+    max-width: 720px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .photo__grid {
+    max-width: 288px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
