@@ -7,7 +7,6 @@
     "span text";
   gap: 40px;
   max-width: 984px;
-  height: 832px;
 }
 
 .place__city-name {
@@ -70,6 +69,7 @@
   text-align: left;
   max-width: 484px;
   margin: 0;
+  grid-area: text;
 }
 
 .button {
@@ -84,4 +84,14 @@
   padding: 13px 0;
   max-width: 356px;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  grid-area: button;
+}
+
+.button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
+  cursor: pointer;
 }
