@@ -5,6 +5,7 @@
   margin-top: 118px;
   padding: 0 48px 0 48px;
   gap: 16px;
+  width: 100%;
 }
 
 .photo__grid-item {
