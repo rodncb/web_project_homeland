@@ -82,6 +82,7 @@
   border-radius: 4px;
   padding: 13px 0;
   max-width: 356px;
+  width: 100%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   grid-area: button;
 }
@@ -96,7 +97,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place__city {
+  .place {
     max-width: 720px;
     grid-gap: 48px 28px;
     grid-template-columns: 340px 1fr;
@@ -121,23 +122,27 @@
   }
   .place__button {
     max-width: 355px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 540px) {
-  .place__city {
+  .place {
     max-width: 320px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .place__city-name {
     max-width: 288px;
+    width: 100%;
     font-size: 32px;
     line-height: 35px;
     text-align: left;
   }
   .place__artists {
     max-width: 288px;
+    width: 100%;
   }
   .place__image {
     max-width: 320px;
@@ -146,11 +151,13 @@
 
   .place__city-text-paragraph {
     max-width: 288px;
+    width: 100%;
     font-size: 18px;
   }
 
   .place__button {
     max-width: 288px;
+    width: 100%;
     font-size: 14px;
     line-height: 16.94px;
     margin: 0 16px;
