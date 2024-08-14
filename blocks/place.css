@@ -1,4 +1,4 @@
-.place__city {
+.place {
   display: grid;
   grid-template-areas:
     "city artist"

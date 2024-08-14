@@ -1,20 +1,19 @@
-.photo__grid {
+.photo {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin-top: 118px;
   padding: 0 48px 0 48px;
   gap: 16px;
-  width: 100%;
 }
 
-.photo__grid-item {
+.photo__item {
   width: 284px;
   height: 213px;
 }
 
 @media screen and (max-width: 1024px) {
-  .photo__grid {
+  .photo {
     max-width: 720px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -23,7 +22,7 @@
 }
 
 @media screen and (max-width: 540px) {
-  .photo__grid {
+  .photo {
     max-width: 288px;
     display: grid;
     grid-template-columns: 1fr;
