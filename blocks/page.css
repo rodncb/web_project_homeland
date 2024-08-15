@@ -1,6 +1,8 @@
 .page {
   max-width: 1280px;
+  min-width: 320px;
   min-height: 1883px;
+  margin: 0 auto;
   background: rgba(42, 44, 47, 1);
   color: rgba(255, 255, 255, 1);
   font-family: "Inter", "Sans-Serif";
