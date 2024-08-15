@@ -1,7 +1,5 @@
 .photo {
-  margin: 0px 48px 80px;
-  display: flex;
-  justify-content: center;
+  padding: 16px 16px;
 }
 .photo__galery {
   display: grid;
@@ -18,18 +16,31 @@
 
 @media screen and (max-width: 1024px) {
   .photo__galery {
-    max-width: 720px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
   }
+  .photo__item {
+    max-width: 720px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 540px) {
+  .photo {
+    display: flex;
+    justify-content: center;
+  }
   .photo__galery {
-    max-width: 288px;
     display: grid;
+    max-width: none;
+    width: 100%;
     grid-template-columns: 1fr;
     gap: 12px;
+    margin-top: 38px;
+  }
+  .photo__item {
+    max-width: none;
+    width: 100%;
   }
 }

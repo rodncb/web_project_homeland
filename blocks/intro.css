@@ -108,13 +108,11 @@
 
   .intro__text-reference {
     width: 100%;
-    height: auto;
     line-height: 34px;
   }
 
   .intro__text-introduction {
     width: 100%;
-    height: auto;
     margin-bottom: 64px;
     font-size: 16px;
     line-height: 26.08px;
